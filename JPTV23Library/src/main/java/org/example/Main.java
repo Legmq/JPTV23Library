@@ -1,0 +1,11 @@
+package org.example;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+            Input scanner = new ConsoleInput(new Scanner(System.in));
+            System.out.println("JPTV23Library");
+            App app = new App(scanner);
+            app.run();
+        }
+    }
